@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CAWRI - Children and Women Rights International</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.png" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Top Bar Start -->
+        <div class="top-bar d-none d-md-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="top-bar-left">
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="top-bar-right">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar End -->
+
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a href="index.html" class="navbar-brand">
+  <img src="img/logo full.png" style="height: 100px; width:auto; vertical-align: middle;">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="sectors.html" class="nav-item nav-link">Sectors</a>
+                        <a href="event.html" class="nav-item nav-link">Events</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Participate</a>
+                            <div class="dropdown-menu">
+                                <a href="donate.html" class="dropdown-item">Donate Now</a>
+                                <a href="volunteer.html" class="dropdown-item">Become A Volunteer</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+
+        <!-- Carousel Start -->
+        <div class="carousel">
+            <div class="container-fluid">
+                <div class="owl-carousel">
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/carousel-1.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Eliminate violence against women</h1>
+                            <p>
+                                Help enhance public awareness and sensitivity to the issue of protection for women and children who have to seek shelter because of violence or threat of violence
+                            </p>
+                            <div class="carousel-btn">
+                                <a class="btn btn-custom" href="donate.html">Donate Now</a>
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/carousel-2.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Get Involved with helping hand</h1>
+                            <p>
+                                Donate to raise awareness about women and children rights.
+                            </p>
+                            <div class="carousel-btn">
+                                <a class="btn btn-custom" href="donate.html">Donate Now</a>
+                                                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/carousel-3.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Bring smiles to Children </h1>
+                            <p>
+                                Aid for the Care and Treatment of Children who are subject to abuse or needs support.
+                            </p>
+                            <div class="carousel-btn">
+                                <a class="btn btn-custom" href="donate.html">Donate Now</a>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event Pop-Up</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            #event-popup {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+            }
+
+            .popup-content {
+                background: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                width: 90%;
+                max-width: 800px;
+                position: relative;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+                overflow-y: auto;
+                max-height: 90%;
+            }
+
+            #close-popup {
+                position: absolute;
+                top: 2px;
+                right: 2px;
+                background: red;
+                color: #fff;
+                border: none;
+                padding: 1px 2px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .event .section-header h2 {
+                margin-bottom: 20px;
+            }
+
+            .event-item img {
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 15px;
+            }
+
+            .event-meta p {
+                margin: 5px 0;
+            }
+
+            .event-text h3 {
+                margin-top: 10px;
+            }
+
+            .event-text a {
+                color: blue;
+                text-decoration: underline;
+                display: block;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Pop-Up Start -->
+        <div id="event-popup">
+            <div class="popup-content">
+                <button id="close-popup">[X]</button>
+                <div class="event">
+                                  <div class="section-header text-center">
+                                      <p></p>
+                                      <h2>Upcoming event</h2>
+                                  </div>
+                                  <div class="event-item">
+                                      <img src="img/event-1.jpg" alt="Image">
+                                      <div class="event-content">
+                                          <div class="event-meta">
+                                            <p><i class="fa fa-calendar-alt"></i>From 15-Apr-25</p>
+                                            <p><i class="fa fa-calendar-alt"></i>To 15-October-25</p>
+                                            <p><i class="fa fa-map-marker-alt"></i>Chitwan</p>
+                                          </div>
+                                          <div class="event-text">
+                                            <h3>Dialogues</h3>
+                                            <a href="event.html">See More</a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Pop-Up End -->
+
+
+
+        <script>
+        const popup = document.getElementById('event-popup');
+        const closePopup = document.getElementById('close-popup');
+
+        // Check if the pop-up has already been shown
+        const hasPopupBeenShown = localStorage.getItem('popupShown');
+
+        // Show the pop-up if it hasn't been shown
+        if (!hasPopupBeenShown) {
+            popup.style.visibility = 'visible';
+            localStorage.setItem('popupShown', 'true'); // Mark the pop-up as shown
+        }
+
+        // Close the pop-up when the close button is clicked
+        closePopup.addEventListener('click', () => {
+            popup.style.visibility = 'hidden';
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-contact">
+                            <h2>Email Us</h2>
+
+                            <p><i class="fa fa-envelope"></i><a href="mailto:info@cawri.org"> info@cawri.org</a></p>
+                            <div class="footer-social">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-link">
+                            <h2>Popular Links</h2>
+                            <a href="about.html">About Us</a>
+                            <a href="contact.html">Contact Us</a>
+                            <a href="event.html">Upcoming Events</a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-link">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-newsletter">
+
+                            <!DOCTYPE html>
+<html lang="en">
+
+</head>
+<body>
+    <h2>Newsletter</h2>
+    <form id="newsletterForm">
+        <input class="form-control" id="emailInput" type="email" placeholder="Email" required>
+        <button class="btn btn-custom" type="submit">Submit</button>
+    </form>
+    <p id="successMessage" class="success-message" style="display: none;">Thank you for subscribing!</p>
+
+    <script>
+        document.getElementById("newsletterForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent actual form submission
+            const emailInput = document.getElementById("emailInput");
+            const successMessage = document.getElementById("successMessage");
+
+            if (emailInput.value.trim() !== "") {
+                successMessage.style.display = "block"; // Show the success message
+                emailInput.value = ""; // Clear the input field
+            }
+        });
+    </script>
+</body>
+</html>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; <a href="www.cawri.org">CAWRI</a>, All Right Reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to top button -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/parallax/parallax.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
